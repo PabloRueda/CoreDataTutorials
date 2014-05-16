@@ -56,12 +56,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    BOOL loaded = [[NSUserDefaults standardUserDefaults] boolForKey:@"loaded"];
-    if (!loaded) {
-        [self loadData];
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"loaded"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-    }
+    [self loadData];
     
     // Override point for customization after application launch.
     ViewController *controller = (ViewController *)self.window.rootViewController;
@@ -129,18 +124,9 @@
     
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"CoreData.sqlite"];
     
-    /*if (![[NSFileManager defaultManager] fileExistsAtPath:[storeURL path]]) {
-        NSURL *preloadURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"CoreData2" ofType:@"sqlite"]];
-        NSError* err = nil;
-        
-        if (![[NSFileManager defaultManager] copyItemAtURL:preloadURL toURL:storeURL error:&err]) {
-            NSLog(@"Oops, could copy preloaded data");
-        }
-    }*/
-    
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSInMemoryStoreType configuration:nil URL:storeURL options:nil error:&error]) {
         /*
          Replace this implementation with code to handle the error appropriately.
          
