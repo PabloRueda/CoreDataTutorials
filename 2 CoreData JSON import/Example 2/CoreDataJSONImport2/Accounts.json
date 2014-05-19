@@ -1,0 +1,17 @@
+ [
+  {
+  "code": "MNS001",
+  "name": "MediaNet 1",
+  "employees": [
+                "PR"
+                ]
+  },
+  {
+  "code": "BBVA001",
+  "name": "BBVA 1",
+  "employees": [
+                "PR",
+                "WS"
+                ]
+  }
+  ]

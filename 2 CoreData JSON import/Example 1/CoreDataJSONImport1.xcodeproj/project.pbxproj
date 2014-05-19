@@ -11,37 +11,42 @@
 		07614B131917C7CE00EBBBFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07614B121917C7CE00EBBBFE /* CoreGraphics.framework */; };
 		07614B151917C7CE00EBBBFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07614B141917C7CE00EBBBFE /* UIKit.framework */; };
 		07614B171917C7CE00EBBBFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07614B161917C7CE00EBBBFE /* CoreData.framework */; };
-		07C693B2192A4D4600DAC31C /* CoreDataOrSQLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07C693B0192A4D4600DAC31C /* CoreDataOrSQLite.xcdatamodeld */; };
-		07C693C0192A4DD600DAC31C /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693B9192A4DD600DAC31C /* Account.m */; };
-		07C693C1192A4DD600DAC31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693BB192A4DD600DAC31C /* AppDelegate.m */; };
-		07C693C2192A4DD600DAC31C /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693BD192A4DD600DAC31C /* Employee.m */; };
-		07C693C3192A4DD600DAC31C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693BF192A4DD600DAC31C /* ViewController.m */; };
-		07C693C5192A4DE100DAC31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693C4192A4DE100DAC31C /* main.m */; };
-		07C693C8192A4E1200DAC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C693C6192A4E1200DAC31C /* Main.storyboard */; };
-		07C693CA192A4E1700DAC31C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C693C9192A4E1700DAC31C /* Images.xcassets */; };
+		07C693D8192A4F7200DAC31C /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693CF192A4F7200DAC31C /* Account.m */; };
+		07C693D9192A4F7200DAC31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693D1192A4F7200DAC31C /* AppDelegate.m */; };
+		07C693DA192A4F7200DAC31C /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693D3192A4F7200DAC31C /* Employee.m */; };
+		07C693DB192A4F7200DAC31C /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693D5192A4F7200DAC31C /* Store.m */; };
+		07C693DC192A4F7200DAC31C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693D7192A4F7200DAC31C /* ViewController.m */; };
+		07C693E3192A4F9100DAC31C /* Employees.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C693DF192A4F9100DAC31C /* Employees.json */; };
+		07C693E4192A4F9100DAC31C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C693E0192A4F9100DAC31C /* Images.xcassets */; };
+		07C693E5192A4F9100DAC31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C693E1192A4F9100DAC31C /* main.m */; };
+		07C693E8192A4FA300DAC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C693E6192A4FA300DAC31C /* Main.storyboard */; };
+		07C693EB192A4FAB00DAC31C /* CoreDataJSONImport1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07C693E9192A4FAB00DAC31C /* CoreDataJSONImport1.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07614B0D1917C7CE00EBBBFE /* CoreDataOrSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataOrSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07614B0D1917C7CE00EBBBFE /* CoreDataJSONImport1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataJSONImport1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07614B101917C7CE00EBBBFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07614B121917C7CE00EBBBFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		07614B141917C7CE00EBBBFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07614B161917C7CE00EBBBFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		07614B1A1917C7CE00EBBBFE /* CoreDataOrSQLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "CoreDataOrSQLite-Info.plist"; path = "CoreDataOrSQLite/CoreDataOrSQLite-Info.plist"; sourceTree = "<group>"; };
-		07614B201917C7CE00EBBBFE /* CoreDataOrSQLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CoreDataOrSQLite-Prefix.pch"; path = "CoreDataOrSQLite/CoreDataOrSQLite-Prefix.pch"; sourceTree = "<group>"; };
 		07614B371917C7CF00EBBBFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		07C693B1192A4D4600DAC31C /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		07C693B8192A4DD600DAC31C /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = CoreDataOrSQLite/Account.h; sourceTree = SOURCE_ROOT; };
-		07C693B9192A4DD600DAC31C /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = CoreDataOrSQLite/Account.m; sourceTree = SOURCE_ROOT; };
-		07C693BA192A4DD600DAC31C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CoreDataOrSQLite/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		07C693BB192A4DD600DAC31C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CoreDataOrSQLite/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		07C693BC192A4DD600DAC31C /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = CoreDataOrSQLite/Employee.h; sourceTree = SOURCE_ROOT; };
-		07C693BD192A4DD600DAC31C /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = CoreDataOrSQLite/Employee.m; sourceTree = SOURCE_ROOT; };
-		07C693BE192A4DD600DAC31C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = CoreDataOrSQLite/ViewController.h; sourceTree = SOURCE_ROOT; };
-		07C693BF192A4DD600DAC31C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = CoreDataOrSQLite/ViewController.m; sourceTree = SOURCE_ROOT; };
-		07C693C4192A4DE100DAC31C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoreDataOrSQLite/main.m; sourceTree = SOURCE_ROOT; };
-		07C693C7192A4E1200DAC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoreDataOrSQLite/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		07C693C9192A4E1700DAC31C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoreDataOrSQLite/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		07C693CE192A4F7200DAC31C /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Account.h; path = CoreDataJSONImport1/Account.h; sourceTree = SOURCE_ROOT; };
+		07C693CF192A4F7200DAC31C /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Account.m; path = CoreDataJSONImport1/Account.m; sourceTree = SOURCE_ROOT; };
+		07C693D0192A4F7200DAC31C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CoreDataJSONImport1/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		07C693D1192A4F7200DAC31C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CoreDataJSONImport1/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		07C693D2192A4F7200DAC31C /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = CoreDataJSONImport1/Employee.h; sourceTree = SOURCE_ROOT; };
+		07C693D3192A4F7200DAC31C /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = CoreDataJSONImport1/Employee.m; sourceTree = SOURCE_ROOT; };
+		07C693D4192A4F7200DAC31C /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Store.h; path = CoreDataJSONImport1/Store.h; sourceTree = SOURCE_ROOT; };
+		07C693D5192A4F7200DAC31C /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Store.m; path = CoreDataJSONImport1/Store.m; sourceTree = SOURCE_ROOT; };
+		07C693D6192A4F7200DAC31C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = CoreDataJSONImport1/ViewController.h; sourceTree = SOURCE_ROOT; };
+		07C693D7192A4F7200DAC31C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = CoreDataJSONImport1/ViewController.m; sourceTree = SOURCE_ROOT; };
+		07C693DD192A4F9100DAC31C /* CoreDataJSONImport1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CoreDataJSONImport1-Info.plist"; path = "CoreDataJSONImport1/CoreDataJSONImport1-Info.plist"; sourceTree = SOURCE_ROOT; };
+		07C693DE192A4F9100DAC31C /* CoreDataJSONImport1-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreDataJSONImport1-Prefix.pch"; path = "CoreDataJSONImport1/CoreDataJSONImport1-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		07C693DF192A4F9100DAC31C /* Employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Employees.json; path = CoreDataJSONImport1/Employees.json; sourceTree = SOURCE_ROOT; };
+		07C693E0192A4F9100DAC31C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoreDataJSONImport1/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		07C693E1192A4F9100DAC31C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoreDataJSONImport1/main.m; sourceTree = SOURCE_ROOT; };
+		07C693E7192A4FA300DAC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoreDataJSONImport1/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		07C693EA192A4FAB00DAC31C /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,7 @@
 		07614B041917C7CE00EBBBFE = {
 			isa = PBXGroup;
 			children = (
-				07614B181917C7CE00EBBBFE /* CoreDataOrSQLite */,
+				07614B181917C7CE00EBBBFE /* CoreDataJSONImport1 */,
 				07614B0F1917C7CE00EBBBFE /* Frameworks */,
 				07614B0E1917C7CE00EBBBFE /* Products */,
 			);
@@ -71,7 +76,7 @@
 		07614B0E1917C7CE00EBBBFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07614B0D1917C7CE00EBBBFE /* CoreDataOrSQLite.app */,
+				07614B0D1917C7CE00EBBBFE /* CoreDataJSONImport1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,32 +93,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		07614B181917C7CE00EBBBFE /* CoreDataOrSQLite */ = {
+		07614B181917C7CE00EBBBFE /* CoreDataJSONImport1 */ = {
 			isa = PBXGroup;
 			children = (
-				07C693B8192A4DD600DAC31C /* Account.h */,
-				07C693B9192A4DD600DAC31C /* Account.m */,
-				07C693BA192A4DD600DAC31C /* AppDelegate.h */,
-				07C693BB192A4DD600DAC31C /* AppDelegate.m */,
-				07C693BC192A4DD600DAC31C /* Employee.h */,
-				07C693BD192A4DD600DAC31C /* Employee.m */,
-				07C693BE192A4DD600DAC31C /* ViewController.h */,
-				07C693BF192A4DD600DAC31C /* ViewController.m */,
+				07C693D6192A4F7200DAC31C /* ViewController.h */,
+				07C693D7192A4F7200DAC31C /* ViewController.m */,
+				07C693D0192A4F7200DAC31C /* AppDelegate.h */,
+				07C693D1192A4F7200DAC31C /* AppDelegate.m */,
+				07C693D4192A4F7200DAC31C /* Store.h */,
+				07C693D5192A4F7200DAC31C /* Store.m */,
+				07C693CE192A4F7200DAC31C /* Account.h */,
+				07C693CF192A4F7200DAC31C /* Account.m */,
+				07C693D2192A4F7200DAC31C /* Employee.h */,
+				07C693D3192A4F7200DAC31C /* Employee.m */,
 				07614B191917C7CE00EBBBFE /* Supporting Files */,
 			);
-			name = CoreDataOrSQLite;
+			name = CoreDataJSONImport1;
 			path = CoreData;
 			sourceTree = "<group>";
 		};
 		07614B191917C7CE00EBBBFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				07C693C9192A4E1700DAC31C /* Images.xcassets */,
-				07C693C6192A4E1200DAC31C /* Main.storyboard */,
-				07C693B0192A4D4600DAC31C /* CoreDataOrSQLite.xcdatamodeld */,
-				07C693C4192A4DE100DAC31C /* main.m */,
-				07614B1A1917C7CE00EBBBFE /* CoreDataOrSQLite-Info.plist */,
-				07614B201917C7CE00EBBBFE /* CoreDataOrSQLite-Prefix.pch */,
+				07C693DF192A4F9100DAC31C /* Employees.json */,
+				07C693E9192A4FAB00DAC31C /* CoreDataJSONImport1.xcdatamodeld */,
+				07C693E6192A4FA300DAC31C /* Main.storyboard */,
+				07C693DD192A4F9100DAC31C /* CoreDataJSONImport1-Info.plist */,
+				07C693DE192A4F9100DAC31C /* CoreDataJSONImport1-Prefix.pch */,
+				07C693E0192A4F9100DAC31C /* Images.xcassets */,
+				07C693E1192A4F9100DAC31C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07614B0C1917C7CE00EBBBFE /* CoreDataOrSQLite */ = {
+		07614B0C1917C7CE00EBBBFE /* CoreDataJSONImport1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07614B481917C7CF00EBBBFE /* Build configuration list for PBXNativeTarget "CoreDataOrSQLite" */;
+			buildConfigurationList = 07614B481917C7CF00EBBBFE /* Build configuration list for PBXNativeTarget "CoreDataJSONImport1" */;
 			buildPhases = (
 				07614B091917C7CE00EBBBFE /* Sources */,
 				07614B0A1917C7CE00EBBBFE /* Frameworks */,
@@ -133,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataOrSQLite;
+			name = CoreDataJSONImport1;
 			productName = CoreData;
-			productReference = 07614B0D1917C7CE00EBBBFE /* CoreDataOrSQLite.app */;
+			productReference = 07614B0D1917C7CE00EBBBFE /* CoreDataJSONImport1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +155,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pablo Rueda";
 			};
-			buildConfigurationList = 07614B081917C7CE00EBBBFE /* Build configuration list for PBXProject "CoreDataOrSQLite" */;
+			buildConfigurationList = 07614B081917C7CE00EBBBFE /* Build configuration list for PBXProject "CoreDataJSONImport1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -160,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07614B0C1917C7CE00EBBBFE /* CoreDataOrSQLite */,
+				07614B0C1917C7CE00EBBBFE /* CoreDataJSONImport1 */,
 			);
 		};
 /* End PBXProject section */
@@ -170,8 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C693C8192A4E1200DAC31C /* Main.storyboard in Resources */,
-				07C693CA192A4E1700DAC31C /* Images.xcassets in Resources */,
+				07C693E4192A4F9100DAC31C /* Images.xcassets in Resources */,
+				07C693E3192A4F9100DAC31C /* Employees.json in Resources */,
+				07C693E8192A4FA300DAC31C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,22 +191,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C693B2192A4D4600DAC31C /* CoreDataOrSQLite.xcdatamodeld in Sources */,
-				07C693C2192A4DD600DAC31C /* Employee.m in Sources */,
-				07C693C0192A4DD600DAC31C /* Account.m in Sources */,
-				07C693C1192A4DD600DAC31C /* AppDelegate.m in Sources */,
-				07C693C5192A4DE100DAC31C /* main.m in Sources */,
-				07C693C3192A4DD600DAC31C /* ViewController.m in Sources */,
+				07C693DC192A4F7200DAC31C /* ViewController.m in Sources */,
+				07C693DA192A4F7200DAC31C /* Employee.m in Sources */,
+				07C693EB192A4FAB00DAC31C /* CoreDataJSONImport1.xcdatamodeld in Sources */,
+				07C693D9192A4F7200DAC31C /* AppDelegate.m in Sources */,
+				07C693D8192A4F7200DAC31C /* Account.m in Sources */,
+				07C693DB192A4F7200DAC31C /* Store.m in Sources */,
+				07C693E5192A4F9100DAC31C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07C693C6192A4E1200DAC31C /* Main.storyboard */ = {
+		07C693E6192A4FA300DAC31C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07C693C7192A4E1200DAC31C /* Base */,
+				07C693E7192A4FA300DAC31C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -281,9 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataOrSQLite/CoreDataOrSQLite-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataOrSQLite/CoreDataOrSQLite-Info.plist";
-				PRODUCT_NAME = CoreDataOrSQLite;
+				GCC_PREFIX_HEADER = "CoreDataJSONImport1/CoreDataJSONImport1-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataJSONImport1/CoreDataJSONImport1-Info.plist";
+				PRODUCT_NAME = CoreDataJSONImport1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -294,9 +304,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataOrSQLite/CoreDataOrSQLite-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataOrSQLite/CoreDataOrSQLite-Info.plist";
-				PRODUCT_NAME = CoreDataOrSQLite;
+				GCC_PREFIX_HEADER = "CoreDataJSONImport1/CoreDataJSONImport1-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataJSONImport1/CoreDataJSONImport1-Info.plist";
+				PRODUCT_NAME = CoreDataJSONImport1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07614B081917C7CE00EBBBFE /* Build configuration list for PBXProject "CoreDataOrSQLite" */ = {
+		07614B081917C7CE00EBBBFE /* Build configuration list for PBXProject "CoreDataJSONImport1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07614B461917C7CF00EBBBFE /* Debug */,
@@ -313,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07614B481917C7CF00EBBBFE /* Build configuration list for PBXNativeTarget "CoreDataOrSQLite" */ = {
+		07614B481917C7CF00EBBBFE /* Build configuration list for PBXNativeTarget "CoreDataJSONImport1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07614B491917C7CF00EBBBFE /* Debug */,
@@ -325,14 +335,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		07C693B0192A4D4600DAC31C /* CoreDataOrSQLite.xcdatamodeld */ = {
+		07C693E9192A4FAB00DAC31C /* CoreDataJSONImport1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				07C693B1192A4D4600DAC31C /* CoreData.xcdatamodel */,
+				07C693EA192A4FAB00DAC31C /* CoreData.xcdatamodel */,
 			);
-			currentVersion = 07C693B1192A4D4600DAC31C /* CoreData.xcdatamodel */;
-			name = CoreDataOrSQLite.xcdatamodeld;
-			path = CoreDataOrSQLite/CoreDataOrSQLite.xcdatamodeld;
+			currentVersion = 07C693EA192A4FAB00DAC31C /* CoreData.xcdatamodel */;
+			name = CoreDataJSONImport1.xcdatamodeld;
+			path = CoreDataJSONImport1/CoreDataJSONImport1.xcdatamodeld;
 			sourceTree = SOURCE_ROOT;
 			versionGroupType = wrapper.xcdatamodel;
 		};

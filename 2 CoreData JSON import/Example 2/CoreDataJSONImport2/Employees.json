@@ -1,0 +1,17 @@
+ [
+  {
+  "initials": "PR",
+  "name": "Pablo Rueda",
+  "accounts": [
+               "MNS001",
+               "BBVA001"
+               ]
+  },
+  {
+  "initials": "WS",
+  "name": "Will Smith",
+  "accounts": [
+               "BBVA001"
+               ]
+  }
+  ]

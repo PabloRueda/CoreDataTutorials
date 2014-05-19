@@ -1,0 +1,26 @@
+ [
+  {
+  "initials": "PR",
+  "name": "Pablo Rueda",
+  "accounts": [
+               {
+               "code": "MNS001",
+               "name": "MediaNet 1"
+               },
+               {
+               "code": "BBVA001",
+               "name": "BBVA 1"
+               }
+               ]
+  },
+  {
+  "initials": "WS",
+  "name": "Will Smith",
+  "accounts": [
+               {
+               "code": "BBVA001",
+               "name": "BBVA 1"
+               }
+               ]
+  }
+  ]
